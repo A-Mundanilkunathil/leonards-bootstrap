@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Leonard's Bakery</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+          crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- the candy stripe awning across the top -->
+  <div class="stripes"></div>
+
+  <!-- header with the logo, the tagline and the mascot -->
+  <div class="container py-2">
+    <div class="row align-items-center">
+      <div class="col-4">
+        <p class="since mb-0">SINCE 1952</p>
+        <h1 class="logo-script mb-0">Leonard's Bakery</h1>
+      </div>
+      <div class="col-5 text-center">
+        <h4 class="fw-bold mb-0">HOME OF <span class="leonards-red">MALASADAS</span> &amp; <span class="leonards-red">PAO DOCE</span></h4>
+        <p class="small mb-0">933 KAPAHULU AVE / DAILY 5:30AM - 7PM / <a href="#" class="leonards-red">808.737.5591</a></p>
+      </div>
+      <div class="col-3 text-end">
+        <img src="leonards-logo.png" alt="Leonards mascot" height="80">
+      </div>
+    </div>
+  </div>
+
+  <!-- the menu -->
+  <nav class="navbar navbar-expand-lg border-top border-bottom">
+    <div class="container">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item"><a class="nav-link active leonards-red fw-bold" href="#">HOME</a></li>
+        <li class="nav-item"><a class="nav-link fw-bold" href="#">ABOUT</a></li>
+        <li class="nav-item"><a class="nav-link fw-bold" href="#">MALASADAMOBILE&trade;</a></li>
+        <li class="nav-item"><a class="nav-link fw-bold" href="#">MALASADAS</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link fw-bold dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">MENU</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Malasadas</a></li>
+            <li><a class="dropdown-item" href="#">Pao Doce</a></li>
+            <li><a class="dropdown-item" href="#">Coffee</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link fw-bold" href="#">E-STORE</a></li>
+        <li class="nav-item"><a class="nav-link fw-bold" href="#">PRESS</a></li>
+        <li class="nav-item"><a class="nav-link fw-bold" href="#">VISIT US</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- main section, the big malasadas photo and the order button -->
+  <div class="container py-3">
+    <div class="row">
+      <div class="col-8">
+        <h3 class="text-center"><a href="#" class="leonards-red fw-bold">ORDER ONLINE</a></h3>
+        <img src="malasadas.jpg" class="img-fluid" alt="Fresh malasadas">
+        <img src="pao-doce.jpg" class="img-fluid pt-3" alt="Pao doce">
+      </div>
+      <div class="col-4">
+        <div class="border border-3 border-danger text-center p-3 mb-3">
+          <h4><a href="#" class="leonards-red fw-bold">BUY E-GIFT CARD</a></h4>
+        </div>
+        <div class="text-center">
+          <img src="history.jpg" class="img-fluid" alt="Leonards founders">
+          <p class="bg-dark text-white py-1 mb-0 fw-bold">OUR HISTORY</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <footer class="py-3">
+    <div class="container text-center">
+      <p class="mb-0 fw-bold">LEONARD'S BAKERY &middot; 933 KAPAHULU AVE, HONOLULU HI &middot; 808.737.5591</p>
+      <p class="mb-0 small"><a href="#">POLICIES</a> &middot; <i class="bi bi-facebook"></i> <i class="bi bi-instagram"></i> <i class="bi bi-twitter"></i></p>
+    </div>
+  </footer>
+  <div class="stripes"></div>
+  <!-- used AI to help rebuild the page with bootstrap and check it against the real site -->
+</body>
+</html>

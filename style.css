@@ -1,0 +1,38 @@
+/* used AI to help rebuild the page with bootstrap and check it against the real site */
+/* bootstrap does the layout, this file is just the leonards look, the stripes,
+   the red, and the script logo font */
+
+/* the pink candy stripe awning from the real site */
+.stripes {
+  background: repeating-linear-gradient(90deg, #f6a4b7 0px, #f6a4b7 25px, white 25px, white 50px);
+  height: 28px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* leonards signature red */
+.leonards-red {
+  color: #e01b22;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.nav-link {
+  color: black;
+}
+
+/* the script style logo like the sign */
+.logo-script {
+  font-family: 'Brush Script MT', 'Snell Roundhand', cursive;
+  color: #e01b22;
+}
+
+.since {
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+footer {
+  background-color: #f6a4b7;
+}
